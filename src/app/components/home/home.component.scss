@@ -7,12 +7,11 @@ $color2: #CE5B79;
 
 .slider{
     background-color: #1F1F1F;
-    position: relative;
-    padding-bottom: 139px;
+   
+
 
 }
 .button{
-    background-color: #CE5B79;
     background-image: linear-gradient(
         to left,$color1,$color2
     );
@@ -20,9 +19,15 @@ $color2: #CE5B79;
     font-size: 20px;
     font-weight:bold;
     color:$font-color;
+    border-radius: 12px;
     width: 158px;
     height: 60px;
 
+}
+.input{
+    width: 272px;
+    height: 60px;
+    border-radius: 12px;
 }
 
 .header{
@@ -44,12 +49,13 @@ $color2: #CE5B79;
 }
 
 .img{
+   
+    position: static;
+    bottom: 0px;
     width: 632px;
     height: 755px;
-    position: absolute;
-    bottom: 0px;
-    top: -24px
 }
+
 .background{
     background-image: url();
 }
@@ -157,24 +163,31 @@ $color2: #CE5B79;
         #8612E1
     );
     border-radius: 48px;
+    width:1320px;
+    height: 324px;
+
 }
 .icon-text {
     
     background-color: #FFFFFF;
     color:$font-color;
 }
+
 .rounded-row{
+    padding: 90px;
     border-radius: 28px;
 }
 
 .light-gray-background{
    background-color: rgba($color: #FFFFFF, $alpha: 0.3);
-   padding:70px;
+ 
+ 
+
 }
 .white-background{
     background-color: #FFFFFF;
-    border-radius: 28px;
-    padding:20px;
+   
+   
 }
 .icon{
     background-color: rgba($color: #FFFFFF, $alpha: 0.4);

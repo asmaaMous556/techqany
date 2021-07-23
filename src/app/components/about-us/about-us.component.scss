@@ -39,11 +39,10 @@ $font-family:IBM Plex Sans;
 .content{
     margin-left:20px;
 }
+
 .logo{
     background-image: url('../../../assets/img/Mask Group 16.svg');
     background-repeat: no-repeat;
-    position: absolute;
-    right: 0;
-    bottom: -87px;
+   background-position: bottom right;
     height: 550px;
 }

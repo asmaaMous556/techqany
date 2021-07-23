@@ -52,9 +52,7 @@ import { ShippingDetailsComponent } from './components/shipping-details/shipping
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    NbThemeModule.forRoot({ name: 'default' }),
-    NbLayoutModule,
-    NbEvaIconsModule
+   
 
   ],
   providers: [],
